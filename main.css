@@ -4,9 +4,11 @@ html{
    background-color: #1b0733;
 }
 h1{
+    text-align: center;
     color: white;
 }
 p{
+    text-align: center;
     color: white;
 }
 div#Cool{
