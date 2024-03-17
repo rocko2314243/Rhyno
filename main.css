@@ -33,6 +33,7 @@ textarea#Powershell{
     border-radius: 5px;
 }
 button#Fancy{
+    cursor: pointer;
     border-style: none;
     border-color: black;
     background-color: #025601;
@@ -55,6 +56,7 @@ button:active#Fancy{
 }
 
 button#Fancy2{
+    cursor: pointer;
     border-style: none;
     border-color: black;
     background-color: #535601;
