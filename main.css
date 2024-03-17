@@ -78,6 +78,27 @@ button:active#Fancy2{
     transform: translateY(3%);
 }
 
+button#Fancy3{
+    cursor: pointer;
+    border-style: none;
+    border-color: black;
+    background-color: #560101;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+button:active#Fancy3{
+    border-style: none;
+    border-color: black;
+    background-color: #8d0000;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    -ms-transform: translateY(3%);
+    transform: translateY(3%);
+}
 @font-face {
     font-family: 'Quicksand';
     src: url(Quicksand-Regular.ttf);
