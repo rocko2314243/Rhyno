@@ -9,12 +9,19 @@
         <textarea id="Powershell"></textarea>
         <ul>
         <button id="Fancy" onclick="getDate()">Get date</button>
-        <button id="Fancy2" onclick="">Get good</button>
+             <button id="Fancy" onclick="getDuckbot()">Get Duckbot</button>
+        <button id="Fancy2" onclick="supercharge()">Get good</button>
         </ul>
           </div>
 <script>
 function getDate() {
   document.getElementById("Powershell").value = Date();
+}
+    function supercharge() {
+  document.getElementById("Powershell").value = "Supercharging is coming soon.";
+}
+        function getDuckbot() {
+  document.getElementById("Powershell").value = "Get duckbot at duckbot.org";
 }
 </script>
            
