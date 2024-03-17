@@ -8,11 +8,15 @@
          <div id="Cool">
         <textarea id="Powershell"></textarea>
         <ul>
-        <button id="Fancy" onclick="Date()">Get date</button>
+        <button id="Fancy" onclick="getDate()">Get date</button>
         <button id="Fancy2" onclick="">Get good</button>
         </ul>
           </div>
-
+<script>
+function getDate() {
+  document.getElementById("Powershell").value = Date();
+}
+</script>
            
     </body>
     </head>
