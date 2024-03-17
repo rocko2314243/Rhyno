@@ -46,8 +46,8 @@ textarea:active#Thingmaker{
     background-image: linear-gradient(#999997, #696969);
     border-radius: 5px;
     border-bottom: 1px solid black;
-    -ms-transform: translateY(1%);
-    transform: translateY(1%);
+    -ms-transform: translateY(3%);
+    transform: translateY(3%);
 }
 textarea#Powershell{
     border-style: none;
