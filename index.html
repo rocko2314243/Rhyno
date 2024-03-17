@@ -11,9 +11,9 @@
         <ul>
             <h1>Commands</h1>
         <button id="Fancy" onclick="getDate()">Get date</button>
-             <button id="Fancy" onclick="getDate()">Generate a random number</button>
+             <button id="Fancy" onclick="getNumber()">Generate a random number</button>
              <button id="Fancy" onclick="getDuckbot()">Get Duckbot</button>
-            <button id="Fancy" onclick="Things()">Throw a dart</button>
+            <button id="Fancy" onclick="Darts()">Throw a dart</button>
         <button id="Fancy2" onclick="supercharge()">Get good</button>
             <button id="Fancy3">Unavaible command</button>
         </ul>
@@ -28,8 +28,11 @@ function getDate() {
         function getDuckbot() {
   document.getElementById("Thingmaker").value = "Get duckbot at duckbot.org";
 }
-            function Things() {
-  document.getElementById("Thingmaker").value = "You throwed a dart at" + random(1, 50) + "but the position is" + random(1, 50);
+            function Darts() {
+  document.getElementById("Thingmaker").value = "You throwed a dart at" + Math.floor((Math.random() * 50) + 1) + "but the position is" + Math.floor((Math.random() * 50) + 1);
+}
+                function GetNumber() {
+  document.getElementById("Thingmaker").value = Math.floor((Math.random() * 10000000000) + 1);
 }
 </script>
            
